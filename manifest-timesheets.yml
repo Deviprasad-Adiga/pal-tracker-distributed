@@ -4,7 +4,7 @@ applications:
   routes:
   - route: allocations-pal-dist-devi.apps.pikes.pal.pivotal.io
   memory: 1G
-  instances: 1
+  instances: 0
   env:
     REGISTRATION_SERVER_ENDPOINT: http://allocations-pal-dist-devi.apps.pikes.pal.pivotal.io
   services:
