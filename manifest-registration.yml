@@ -4,6 +4,6 @@ applications:
   routes:
   - route: allocations-pal-dist-devi.apps.pikes.pal.pivotal.io
   memory: 1G
-  instances: 0
+  instances: 1
   services:
   - tracker-registration-database
